@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background-color: #f2f2f2;
+  background-image: url(./love.jpg);
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.calculator {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(18, 1, 1, 0.1);
+}
+
+.calculator input {
+  margin-right: 50px;
+  font-style: italic;
+  width: 50%;
+  height: 30px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.calculator button {
+  width: 53%;
+  height: 50px;
+  padding: 10px;
+  font-weight: bold;
+  background-color:rgb(120,66,44) ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background-color: #404748;
+  transition: 1.5s;
+}
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#result{
+  transition: 3.0s;
+  color:white;
+}
